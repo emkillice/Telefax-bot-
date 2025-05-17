@@ -1,0 +1,9 @@
+
+{
+  "default_session_values": {
+    "model": "gpt-4o",
+    "temperature": 0.8,
+    "max_tokens": null,
+    "system_prompt": "You are a chatbot, having conversations with Telegram user."
+  }
+}
