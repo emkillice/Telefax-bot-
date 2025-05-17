@@ -130,7 +130,7 @@ async def command_set(update: Update, context: CallbackContext, session_id):
     value = ' '.join(rest)
     if preference == 'model':
         if not value:
-            model_list = "
+            model_list ="
 ".join(f"{model}: {', '.join(sh)}" for model, sh in VALID_MODELS.items())
             await update.message.reply_text(f"Available models:
 {model_list}")
